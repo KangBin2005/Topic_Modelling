@@ -4,6 +4,11 @@
 This project focuses on extracting hidden thematic structures from large-scale, unstructured text datasets. Using the **World Bank Project Documents** dataset, I developed an end-to-end NLP pipeline to automate the categorization of project reports, replacing manual review with a scalable **Latent Dirichlet Allocation (LDA)** model.
 
 ## 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Gensim](https://img.shields.io/badge/Modeling-Gensim%20%7C%20LDA-red.svg)
+![NLP](https://img.shields.io/badge/NLP-NLTK%20%7C%20SpaCy-green.svg)
+![Visualization](https://img.shields.io/badge/Viz-PyLDAvis%20%7C%20Seaborn%20%7C%20Matplot-orange.svg)
+
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Regex
 * **NLP Tools:** NLTK, Gensim, SpaCy
