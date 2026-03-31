@@ -4,6 +4,7 @@
 This project focuses on extracting hidden thematic structures from large-scale, unstructured text datasets. Using the **World Bank Project Documents** dataset, I developed an end-to-end NLP pipeline to automate the categorization of project reports, replacing manual review with a scalable **Latent Dirichlet Allocation (LDA)** model.
 
 ## 🛠️ Tech Stack
+[![View Notebook](https://img.shields.io/badge/View_Notebook-nbviewer-orange.svg)](https://nbviewer.org/github/KangBin2005/Topic_Modelling/blob/main/244423Q_TopicModelling.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Gensim](https://img.shields.io/badge/Modeling-Gensim%20%7C%20LDA-red.svg)
 ![NLP](https://img.shields.io/badge/NLP-NLTK%20%7C%20SpaCy-green.svg)
@@ -28,6 +29,9 @@ The foundation of this project involved transforming "noisy" raw text into a mac
 
 ## 📊 Task 1b: Topic Modelling & Model Selection
 In this phase, I implemented the LDA model using the **Gensim** library to discover latent themes across the corpus.
+
+> [!TIP]
+> **Interactive Dashboard:** GitHub may struggle to render large interactive notebooks. You can view the full interactive **pyLDAvis** dashboard and evaluation plots via [nbviewer here](https://nbviewer.org/github/KangBin2005/Topic_Modelling/blob/main/244423Q_TopicModelling.ipynb).
 
 ### **Model Selection Approach**
 To determine the optimal number of topics ($k$), I didn't rely on guesswork. Instead, I executed a data-driven model selection approach:
@@ -59,3 +63,4 @@ I utilized **PyLDAvis** to generate an interactive intertopic distance map. This
 * `244423Q_TopicModelling.html`: Exported **PyLDAvis** dashboard for interactive exploration.
 
 *Note: The processed JSON dataset is excluded due to file size limits but can be regenerated using the provided scripts.*
+
