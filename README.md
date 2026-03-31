@@ -61,5 +61,5 @@ I utilized **PyLDAvis** to generate an interactive intertopic distance map. This
 * `244423Q_DataPreparation.ipynb`: Text cleaning and lemmatization logic.
 * `244423Q_TopicModelling.ipynb`: LDA implementation, coherence/perplexity plots, model tuning and **PyLDAvis** dashboard for interactive exploration of topics.
 
-*Note: The processed JSON dataset is excluded due to file size limits but can be regenerated using the provided scripts.*
+*Note: The dataset is excluded in this respository due to file size limits.*
 
